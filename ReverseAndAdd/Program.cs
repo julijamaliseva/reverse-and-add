@@ -24,9 +24,7 @@ namespace ReverseAndAdd
                 input = Console.ReadLine();
                 counter = 0;
 
-                // I made an assumption that the program will stop after the keyword "exit"
-                // in command line
-                if (input == "exit" || string.IsNullOrEmpty(input)) 
+                if (string.IsNullOrEmpty(input)) //input == "exit" ||
                 {
                     break;
                 }
